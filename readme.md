@@ -17,7 +17,7 @@ Now start up a server with:
 
 This will start up a Selenium Server and will output a bunch of info logs. 
 
-Configuration
+##Configuration
 
 Now create the configuration file. Copy the following into conf.js:
 
@@ -28,7 +28,7 @@ Now create the configuration file. Copy the following into conf.js:
 
 This configuration tells Protractor where your test files (specs) are, and where to talk to your Selenium Server (seleniumAddress). It will use the defaults for all other configuration. Chrome is the default browser.
 
-Run the test
+##Run the test
 
 Now run the test with:
 
